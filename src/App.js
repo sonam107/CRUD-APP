@@ -8,16 +8,16 @@ import Viren from "./Viren";
 function App() {
   return (
     <>
-              <Viren/>
+              {/* <Viren/> */}
 
-      {/* <NavBar />
+      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route path="/all" element={<Allusers />}></Route>
           <Route path="/add" element={<Adduser />}></Route>
           <Route path="/" element={<Sonam />}></Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }
